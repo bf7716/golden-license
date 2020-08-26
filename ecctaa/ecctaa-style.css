@@ -1,0 +1,237 @@
+/* ----------HEADER---------- */
+header img{
+    box-shadow: 0px 3px 5px #00000030, 0px 1px 3px #00000030;
+}
+
+/* ---NAV--- */
+nav h1 a{
+    color: #ffffff;
+}
+
+nav h1 a:hover{
+    color: #FFC548;
+}
+
+nav>.menu>div>li>a{
+    color: #ffffff;
+}
+
+nav>.menu>div>li>a:hover{
+    color: #FFC548;
+    border-bottom: 1px solid #FFC548;
+}
+
+nav ul li .drop-down-menu li a{
+    color: #00000080;
+}
+
+nav ul li .drop-down-menu li:hover{
+    background-color: rgb(241, 184, 59);
+}
+
+nav ul li .drop-down-menu li a:hover{
+    color: #000000;
+}
+
+nav ul li:hover>a{
+    color: #FFC548;
+}
+
+/* ----------top----------- */
+.top i{
+    color: rgb(8, 154, 199);
+}
+
+/* ---------SECTION---------- */
+/* ---title--- */
+h2{
+    color: rgb(122, 94, 0);
+}
+
+h2 i{
+    color: #D9B94D;
+}
+
+.title-line{
+    background-color: #D9B94D;
+}
+
+/* ----------LIST--------- */
+/* 依照法考介紹(intro.html)設定 */
+.list .list-group-item.active{
+    background-color :#D9B94D;
+    border-color: #D9B94D;
+    color: #ffffff;
+}
+
+.list .content{
+    background-color: rgba(217, 184, 77, 0.1);
+}
+
+.list .content h3{
+    color: rgb(122, 94, 0);
+}
+
+.list .content h3 i{
+    color: #D9B94D;
+}
+
+.list .content span{
+    color: rgb(196, 23, 23);
+    font-weight: 600;
+}
+
+.list .about ul{
+    padding-left: 2rem;
+}
+
+.list .infor{
+    padding-top: 0;
+}
+
+.list .infor ul{
+    padding-left: 2.5rem;
+}
+
+.list .infor ul li{
+    padding-top: 0.5rem;
+}
+
+.list .infor .ps{
+    display: inline-block;
+    padding-left: 3rem;
+    padding-top: .5rem;
+}
+
+.list .infor .attend,
+.list .infor .time-attend{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.list .infor p{
+    padding-left: 2rem;
+}
+
+.list .infor ul>li ol li{
+    padding-top: 0;
+}
+
+.list .infor ul>li .attend{
+    padding-bottom: 0;
+    padding-top: 0.5rem;
+}
+
+.list table td{
+    border: 1px solid #D9B94D;
+}
+
+.list .content table{
+    margin-left: 2.5rem;
+    margin-top: 0;
+}
+
+.list .content table td p{
+    padding-left: 0;
+    padding: 0 1rem;
+    line-height: 2;
+}
+
+.list .content table .thead{
+    text-align: center;
+}
+
+.list .content .time-attend{
+    padding-left: 2.5rem;
+    padding-top: 0.5rem;
+}
+
+/* ----------FOOTER---------- */
+footer{
+    background-color: #047B9E;
+}
+
+.ecctaa footer .large-side{
+    width: 45%;
+}
+
+.ecctaa footer .footer-block .logo{
+    width: 70%;
+}
+
+
+@media screen and (max-width: 1025px) and (min-width: 561px) {
+    .list .scroll-table{
+        width:100%; 
+        overflow: scroll;
+    }
+
+    .list .scroll-ps{
+        font-weight: 900;
+    }
+
+    .list .scroll-table>table{
+        margin-left: 0;
+        margin-top: 0;
+        width: 600px;
+    }
+}
+
+@media (max-width:560px){
+    
+    .block-text ul>.large,
+    .block-text ul>li{
+        width: 100%;
+    }
+
+    /* ----------nav---------- */
+    nav{
+        background-color: #047B9E;
+    }
+
+    nav .menu div>li>a,
+    nav .menu li p {
+        color: #047B9E;
+    }
+
+    nav .menu .active{
+        color: #D9B94D;
+    }
+
+    /* --------list--------- */
+    .list .title-line{
+        margin: 1rem 0;
+    }
+
+    .list .about ul{
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .list .scroll-table{
+        width:100%; 
+        overflow: scroll;
+    }
+
+    .list .scroll-ps{
+        font-weight: 900;
+    }
+
+    .list .scroll-table>table{
+        margin-left: 0;
+        margin-top: 0;
+        width: 600px;
+    }
+
+    /* -------footer-------- */
+    .ecctaa footer .large-side{
+        width: 100%;
+    }
+
+    .ecctaa footer .footer-block .logo{
+        width: 100%;
+    }
+    
+}

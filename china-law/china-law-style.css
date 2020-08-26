@@ -1,0 +1,850 @@
+/* ----------HEADER---------- */
+/* ---NAV--- */
+nav h1 a{
+    color: #ffffff;
+}
+
+nav h1 a:hover{
+    color: #FFC548;
+}
+
+nav>.menu>div>li>a{
+    color: #ffffff;
+}
+
+nav>.menu>div>li>a:hover{
+    color: #FFC548;
+    border-bottom: 1px solid #FFC548;
+}
+
+nav ul li .drop-down-menu li a{
+    color: #00000080;
+}
+
+nav ul li .drop-down-menu li:hover{
+    background-color: rgb(241, 184, 59);
+}
+
+nav ul li .drop-down-menu li a:hover{
+    color: #000000;
+}
+
+nav ul li:hover>a{
+    color: #FFC548;
+}
+
+/* ---menu--- */
+menu{
+    background-color: #3A73A8;
+}
+
+menu ul li{
+    transform: translateX(-130px);
+}
+
+menu ul li a:hover,
+menu ul li .active{
+    color: rgb(255, 220, 107);
+    border-bottom: 4px solid rgb(255, 220, 107);
+}
+
+/* ----------top----------- */
+.top i{
+    color: rgb(72, 161, 245);
+}
+
+/* ---------SECTION---------- */
+/* ---title--- */
+h2{
+    color: rgb(122, 94, 0);
+}
+
+h2 i{
+    color: #D9B94D;
+}
+
+.title-line{
+    background-color: #D9B94D;
+}
+
+/* ------------BLOCK-TEXT---------- */
+.block-text .half-side,
+.block-text .whole-size{
+    background-color: rgba(217, 184, 77, 0.1);
+}
+
+.whole-size{
+    width: 100%;
+}
+
+.block-text h3,
+.block-text h4{
+    color: #3A73A8;
+}
+
+.block-text p span{
+    color: #3A73A8;
+}
+
+.button a{
+    background-color: #3A73A8;
+    border: #3A73A8 1px solid;
+}
+
+.button a:hover{
+    color: #3A73A8;
+}
+
+.block-text .band-activity{
+    width: 38%;
+    margin: 0 auto;
+}
+
+.block-text .band-activity ul,
+.block-text .lecture-activity ul{
+    line-height: 1.8;
+    color: rgb(151, 118, 10);
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.block-text .band-activity ul li{
+    padding: .3rem 0;
+    list-style: square;
+}
+
+.block-text .lecture-activity{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.block-text .lecture-activity ul{
+    list-style: decimal;
+}
+
+.block-text .lecture-activity ol{
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
+
+.block-text .taiwan-lecture-activity{
+    width: 100%;
+}
+
+.block-text .taiwan-lecture-activity p{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.block-text .taiwan-lecture-activity ol{
+    list-style: square;
+    line-height: 1.8;
+    color: rgb(151, 118, 10);
+    font-weight: 600;
+}
+
+.block-text .taiwan-lecture-activity ol li{
+    padding: .5rem 0;
+}
+
+.block-text .taiwan-lecture-activity ol li h6{
+    font-size: 1.5rem;
+    color: #3A73A8;
+}
+
+.block-text .taiwan-lecture-activity ol li span{
+    color: #C30D23;
+}
+ 
+.block-text ul>.large{
+     width: 37%;
+ }
+ 
+.block-text ul>li>ol{
+     list-style: square;
+     padding-left: 1rem;
+     padding-top: 1rem;
+     margin: .5rem;
+ }
+ 
+.block-text ul>li>ol>li{
+     padding: .2rem;
+ }
+
+.block-text .test-information{
+    display: flex;
+}
+
+.block-text .test-information div{
+    padding: 1.5rem;
+}
+
+.block-text .test-information h4{
+    font-size: 1.3rem;
+}
+
+
+/* 法考兩年班 活動頁的設定 */
+.block-text .activity .offer{
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+}
+
+.block-text .activity .offer-center{
+    display: flex;
+    justify-content: center;
+}
+
+.block-text .activity .offer ol li{
+    list-style: square;
+    padding: .5rem 0;
+    margin-left: 5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #C30D23;
+}
+
+.block-text .activity .offer .btn{
+    background-color: #3A73A8;
+    border: 1px solid #3A73A8;
+    font-family: '微軟正黑體';
+    font-weight: 900;
+    font-size: 1.2rem;
+    padding: .5rem 1.5rem;
+    margin-left: 2rem;
+}
+
+.block-text .activity .offer .btn:hover{
+    background-color: transparent;
+    color: #3A73A8;
+}
+
+.block-text .activity-ul{
+    max-width:800px;
+    margin: 0 auto; 
+}
+
+.block-text .activity ul li{
+    float: none;
+    width: 100%;
+    list-style: decimal;
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+.block-text .activity ul li span{
+    color: #C30D23;
+    font-weight: 600;
+}
+
+.block-text .activity ul img{
+    float: left;
+    width: 50%;
+    padding: 1.5rem;
+}
+
+/* ----------LIST--------- */
+/* 依照法考介紹(intro.html)設定 */
+.list .list-group-item.active{
+    background-color :#D9B94D;
+    border-color: #D9B94D;
+    color: #ffffff;
+}
+
+.list .content{
+    background-color: rgba(217, 184, 77, 0.1);
+}
+
+.list .content h3{
+    color: rgb(122, 94, 0);
+}
+
+.list .content h3 i{
+    color: #D9B94D;
+}
+
+.list .content table .thead{
+    background-color: #D9B94D;
+    color: #ffffff;
+}
+
+.list .content table .title{
+    background-color: #ffffff;
+    color: #D9B94D;
+}
+
+.list .content table td{
+    border: 1px solid #D9B94D;
+}
+
+.list .date img{
+    max-width: 90%;
+}
+
+.list .date ul{
+    padding-right: 3rem;
+}
+
+.list .date ul li{
+    list-style: none;
+}
+
+.list .date ul,
+.list .date div{
+    float: left;
+}
+
+.list .date ul li h4{
+    background-color: #3A73A8;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 900;
+    padding: .3rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 22px;
+    border: 0;
+}
+
+.list .date ul li span{
+    padding-left: .5rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.list .benefit p{
+    padding-top: 1rem;
+    padding-left: .5rem;
+}
+
+.list .benefit .ps{
+    color: #C30D23;
+    font-weight: 900;
+}
+
+.list .benefit ol{
+    margin-left: 2rem;
+    margin-top: .5rem;
+}
+
+.list .benefit ol li{
+    list-style: square;
+}
+
+.list .benefit ol h6{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #3A73A8;
+    padding: .8rem 0 .2rem 0;
+}
+
+.list .benefit ol span{
+    color: #C30D23;
+}
+
+.list .different table{
+    width: 100%;
+}
+
+
+/* ----------FANGYUAN---------- */
+.fangyuan img{
+    width: 20%;
+    padding-left: 1.5rem;
+}
+
+.teacher .row div{
+    padding: .5rem 2rem;
+}
+
+.teacher .row div h5{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: .5rem;
+}
+
+.list .title-line{
+    margin: 1rem;
+}
+
+.list h3{
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #D9B94D;
+    padding-left: 5rem;
+}
+
+.book h2,
+.app h2,
+.theme h2{
+    font-family: 'Noto Serif TC', serif;
+    padding-bottom: .5rem;
+}
+
+.list .content table .thead{
+    border-bottom: 1px solid #ffffff;
+}
+
+.book img{
+    padding: 2.5rem;
+}
+
+.list .app table .b-col{
+    width: 45%;
+}
+
+.list .app table .m-col{
+    width: 20%;
+}
+
+.app .download{
+    width: 60%;
+    margin: 1rem 2rem;
+}
+
+.app .download img,
+.app .download>div{
+    float: left;
+}
+
+.app .download img{
+    width: 50%;
+    padding-left: 
+}
+
+.app .download .btn{
+    margin-left: 1.5rem;
+    background-color: #3A73A8;
+    border: 1px solid #3A73A8;
+    font-weight: 900;
+}
+
+.app .download .btn:hover{
+    background-color: transparent;
+    color: #3A73A8;
+}
+
+.score a{
+    display: block;
+    text-align: center;
+    margin-top: .5rem;
+    background-color: #9E158E;
+    border: 1px solid #9E158E;
+    font-weight: 900;
+}
+
+.score a:hover{
+    background-color: transparent;
+    border: 1px solid #9E158E;
+    color: #9E158E;
+}
+
+
+/* ---------COURSE---------- */
+.course .btn{
+    display: block;
+    margin-top: 1rem;
+    background-color: #D9B94D;
+    border: 1px solid #D9B94D;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.course .btn:hover{
+    background-color: transparent;
+    color: #D9B94D;
+}
+
+.list .theme table .b-col{
+    width: 35%;
+}
+
+.list .theme table .m-col{
+    width: 25%;
+}
+
+.list .theme table span{
+    font-weight: 900;
+    color: #C30D23;
+}
+
+.list .theme table ul li{
+    list-style: square;
+    padding-top: .2rem;
+    padding-left: 0;
+}
+
+.list .online table .b-col{
+    width: 42%;
+} 
+
+.list .online table .m-col{
+    width: 35%;
+} 
+
+.list .online table h3{
+    display: block;
+    text-align: center;
+}
+
+.online .content table ol li{
+    list-style: decimal;
+    margin-left: 2.5rem;
+    font-weight: 400;
+}
+
+.online .content table h6{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(122, 94, 0);
+}
+
+.online .content table span{
+    display: block;
+    padding-left: 1.5rem;
+    padding-top: .5rem;
+}
+
+
+/* ----------QA---------- */
+.qa .content ul li span{
+    color: #3A73A8;
+}
+
+.qa .content .ps{
+    color: #C30D23;
+}
+
+.qa .content>span{
+    color: rgb(122, 94, 0);
+}
+
+/* ---------CONTACT---------- */
+.contact .shop .list-group a{
+    background-color: #D9B94D;
+    color: #ffffff;
+}
+
+.contact .shop .list-group a:hover,
+.contact .shop .list-group .active{
+    background-color: rgb(150, 119, 16);
+}
+
+.contact .tab-content table .thead{
+    color: #3A73A8;
+    border-bottom:1px solid #D9B94D;  
+    background-color: transparent; 
+}
+
+
+/* ----------FOOTER---------- */
+footer{
+    background-color: #3A73A8;
+}
+
+@media screen and (max-width: 1025px) and (min-width: 561px) {
+    
+    .block-text .activity h3{
+        font-size: 1.6rem;
+    }
+
+    .block-text .band-activity,
+    .block-text .lecture-activity{
+        width: 100%;
+    }
+
+    .block-text .lecture-activity{
+        margin-left: 1rem;
+    }
+
+    .block-text .taiwan-lecture-activity>div{
+        flex-direction: column;
+    }
+    
+    .block-text .taiwan-lecture-activity>div ol{
+        margin: 0 auto;
+    }
+    
+
+    .block-text .activity .offer ol li{
+        margin-left: 3rem;
+        line-height: 1.5;
+        padding: .2rem 0;
+    }
+
+    .block-text .activity .offer .btn {
+        font-size: 1rem;
+        padding: .3rem 1rem;
+        margin: 1rem;
+    }
+
+    .block-text .activity ul li {
+        padding: .5rem;
+        line-height: 1.5;
+        margin-left: 1rem;
+    }
+
+    .activity-wrap .title-line {
+        margin: 1rem auto 1rem auto;
+    }
+
+    .list .title-line{
+        margin: .5rem 0 1rem 0;
+    }
+
+    .list .scroll-table{
+        width:100%; 
+        overflow: scroll;
+    }
+
+    .list .scroll-ps{
+        font-weight: 900;
+    }
+
+    .list .scroll-table>table{
+        margin-left: 0;
+        margin-top: 0;
+        width: 1000px;
+    }
+
+    /* .list .scroll-table>.small-table{
+        width: 400px;
+    } */
+
+    .list .scroll-table>.big-table{
+        width: 1200px;
+    }
+
+    .col-sm-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .fangyuan img {
+        width: 30%;
+        padding-left: 0;
+    }
+
+    .list h3{
+        padding-left: 3rem;
+        padding-bottom: .5rem;
+        line-height: 1.5;
+    }
+
+    .list .theme table .thead{
+        width: 30%;
+    }
+
+    .list .theme .scroll-table>.big-table{
+        width: 800px;
+    }
+
+    .list .online table .thead{
+        width: 37%;
+    }
+
+    .list .online .scroll-table>.big-table{
+        width: 1000px;
+    }
+
+    .contact .title img {
+        width: 40%;
+    }
+
+    .contact .shop .list-group a {
+        width: 23.5%;
+        padding: .3rem 0;
+        margin: .5rem .2rem;
+    }
+}
+
+@media (max-width:550px){
+
+    .block-text ul>.large,
+    .block-text ul>li{
+        width: 100%;
+    }
+
+    .block-text .activity .offer,
+    .block-text .test-information{
+        flex-direction: column;
+    }
+
+    .block-text .test-information div{
+        padding: 0;
+        padding-top: 1.5rem;
+    }
+
+    .activity-wrap h2{
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .activity-wrap .title-line {
+        margin: .5rem auto 1rem auto;
+    }
+
+    .activity-wrap h2 i{
+        padding: 1rem;
+    }
+
+    .block-text .activity h3{
+        font-size: 1.3rem;
+    }
+
+    .block-text .band-activity,
+    .block-text .lecture-activity{
+        width: 100%;
+    }
+
+    .block-text .band-activity ul{
+        padding-left: 1rem;
+    }
+
+    .block-text .lecture-activity{
+        margin-left: 1rem;
+    }
+
+    .block-text .taiwan-lecture-activity>div{
+        flex-direction: column;
+    }
+    
+    .block-text .taiwan-lecture-activity>div ol{
+        margin: 0 auto;
+        padding-left: 1rem;
+    }
+
+    .block-text .taiwan-lecture-activity>div ol h6{
+        font-size: 1.2rem;
+    }
+    
+
+    .block-text .activity .offer ol li{
+        margin-left: 1rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        padding: 0;
+    }
+
+    .block-text .activity .offer .btn {
+        font-size: 1rem;
+        padding: .3rem 1rem;
+        margin: .5rem 0;
+    }
+
+    .block-text .activity ul li {
+        padding: .5rem;
+        line-height: 1.5;
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
+    .block-text .activity ul img {
+        width: 100%;
+        padding: .5rem;
+    }
+
+    /* ----------nav---------- */
+    nav{
+        background-color: #3A73A8;
+    }
+
+    nav .menu div>li>a,
+    nav .menu li p {
+        color: #3A73A8;
+    }
+
+    /* ---------list---------- */
+    .list .title-line{
+        margin: 1rem 0 1rem 0;
+    }
+
+    .list .video-size{
+        width: 100%;
+    }
+
+    .list .scroll-table{
+        width:100%; 
+        overflow: scroll;
+    }
+
+    .list .scroll-ps{
+        font-weight: 900;
+    }
+
+    .list .scroll-table>table{
+        margin-left: 0;
+        margin-top: 0;
+        width: 600px;
+    }
+
+    .list .scroll-table>.big-table{
+        width: 800px;
+    }
+
+    a{
+        word-break: break-all;
+    }
+
+    .list h3{
+        font-size: 1.3rem;
+        padding-left: 1.5rem;
+        padding-bottom: 1rem;
+        line-height: 1.5;
+    }
+
+    .list .title-line {
+        margin: .5rem 0;
+    }
+    
+    .list .date ul{
+        padding-right: 0;
+    }
+
+    .list .content ul>li{
+        margin: 0;
+    }
+
+    .list .date img{
+        max-width: 100%;
+    }
+
+    .list .benefit .content ul>li{
+        margin-left: 1.5rem;
+    }
+
+    .fangyuan img{
+        width: 60%;
+        padding-left: 0;
+    }
+
+    .list .app .content ul>li,
+    .list .theme table ul li{
+        margin-left: 1rem;
+    }
+
+    .qa .content ul li{
+        margin-left: 1.5rem;
+    }
+
+    .qa .content>span,
+    .qa .content ul li span {
+        font-size: 1.2rem;
+    }
+    
+    .qa .content table td{
+        padding: 0.5rem;
+    }
+
+    .qa .content table .b-col{
+        width: 65%;
+    }
+
+    .contact table{
+        width: 100%;
+    }
+
+}

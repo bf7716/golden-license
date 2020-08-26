@@ -1,0 +1,243 @@
+.wrap{
+    padding: 4rem 0;
+}
+
+/* ----------HEADER---------- */
+
+header h1 a{
+    margin: 0 auto;
+    display: block;
+    background: url(./img/logo.svg);
+    background-size: fixed;
+    background-repeat: no-repeat;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 290px;
+    height: 32px;
+}
+
+header .title{
+    padding: 1.5rem 0;
+}
+
+header .title h1{
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 0 2.2rem;
+}
+
+header .title div{
+    width: 32%;
+    height: 1px;
+    background-color: #000000;
+    margin-top: 1.5rem;
+}
+
+header .title div,
+header .title h1{
+    float: left;
+}
+
+section a h2{
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+
+section img{
+    filter: opacity(.7);
+    transform:scale(1,1);
+    transition: all .5s ease-out;
+}
+
+section a:hover>h2{
+    color: #C30D23;
+    transition: all ease .5s;
+}
+
+section a:hover>img{
+    filter: opacity(1);
+    transform:scale(1.02,1.02);
+}
+
+section ul{
+    padding: 2.5rem;
+}
+
+section ul>li{
+    float: left;
+    width: 33%;
+    padding: 1rem 3rem;
+    line-height: 1.5;
+}
+
+ol{
+    padding: .5rem 0  0 1.3rem;
+}
+
+ol li{
+    list-style: decimal;
+    padding: .2rem 0 0 .5rem;
+
+}
+
+section .pccu{
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    display: flex;
+    align-items: center; 
+}
+
+section .pccu .image{
+    width: 60%;
+}
+
+section .pccu .text{
+    width: 100%;
+    padding: 0 4rem 0 2rem;
+    line-height: 1.5;
+}
+
+section .pccu .text h2{
+    text-align: left;
+}
+
+footer{
+    background-color: #00000070;
+}
+
+footer ul{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer ul li{
+    float: left;
+    color: #ffffff;
+    width: 33%;
+    padding: 2rem;
+    line-height: 1.5;
+}
+
+footer ul li img{
+    padding-top: .5rem;
+}
+
+/* ----------RWD---------- */
+@media screen and (max-width: 1025px) and (min-width: 561px) {
+    .wrap{
+        padding-bottom: 2.5rem;
+    }
+    
+    header .title{
+        padding: 1.5rem;
+    }
+
+    header .title div{
+        width: 20%;
+        margin-top: 1.5rem;
+    }
+
+    section ul{
+        padding: 0 1.5rem 1rem 1.5rem;
+    }
+
+    section ul>li{
+        padding: .5rem 1rem;
+        width: 33.3%;
+    }
+
+    section ul>li ol{
+        display: none;
+    }
+
+    section .pccu{
+        width: 90%;
+        margin: 1rem auto 0 auto;
+    }
+    
+    section .pccu img{
+        width: 80%;
+    }
+    
+    section .pccu .text{
+        padding: 0;
+    }
+
+    footer ul {
+        padding: 1rem 1.5rem;
+    }
+
+    footer ul li{
+        padding: 1rem 0;
+        white-space: nowrap;
+        font-size: .9rem;
+    }
+}
+
+@media (max-width:560px){
+    .wrap{
+        padding: 2.5rem 0; 
+    }
+
+    header .title h1{
+        float: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    header .title div{
+        display: none;
+    }
+    
+    section ul>li{
+        width: 100%;
+        padding: 0;
+        padding-top: 1rem;
+    }
+
+    section .pccu{
+        width: 100%;
+    }
+
+    section .pccu{
+        flex-direction: column;
+        padding: 0 1.5rem;
+    }
+
+    section .pccu .image{
+        width: 100%;
+    }
+
+    section .pccu img{
+        width: 100%;
+    }
+
+    footer ul li img{
+        width: 60%;
+    }
+
+    footer ul{
+        padding: 1rem;
+    }
+
+    footer ul li{
+        width: 100%;
+        padding: .5rem 0;
+        text-align: center;
+    }
+
+    footer ul li p{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:335px){
+    header .title h1{
+        font-size: 2.8rem;
+    }
+}

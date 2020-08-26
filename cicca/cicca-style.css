@@ -1,0 +1,1050 @@
+/* ----------HEADER---------- */
+/* ---NAV--- */
+nav h1 a {
+    color: #ffffff;
+}
+
+nav h1 a:hover {
+    color: rgb(255, 220, 107);
+}
+
+nav>.menu>div>li>a {
+    color: #ffffff;
+}
+
+nav>.menu>div>li>a:hover {
+    color: rgb(255, 220, 107);
+    border-bottom: 1px solid rgb(255, 220, 107);
+}
+
+nav ul li .drop-down-menu li a {
+    color: #00000080;
+}
+
+nav ul li .drop-down-menu li:hover {
+    background-color: rgb(255, 220, 107);
+}
+
+nav ul li .drop-down-menu li a:hover {
+    color: #000000;
+}
+
+nav ul li:hover>a {
+    color: rgb(255, 220, 107);
+}
+
+/* ---menu--- */
+menu {
+    background-color: #BA0045;
+
+}
+
+menu ul li {
+    transform: translateX(-151px);
+}
+
+menu ul li a {
+    font-weight: 900;
+}
+
+menu ul li a:hover,
+menu ul li .active {
+    color: rgb(255, 220, 107);
+    border-bottom: 4px solid rgb(255, 220, 107);
+}
+
+/* ----------top----------- */
+.top i {
+    color: rgb(1, 144, 180);
+}
+
+/* ---------SECTION---------- */
+/* ---title--- */
+h2 {
+    color: rgb(87, 0, 32);
+}
+
+h2 i {
+    color: #BA0045;
+}
+
+.title-line {
+    background-color: rgb(189, 107, 107);
+}
+
+
+/* ------------BLOCK-TEXT---------- */
+.block-text .half-side,
+.block-text .whole-size,
+.block-text .one-third-side {
+    background-color: rgba(185, 53, 102, 0.07);
+}
+
+.block-text h3,
+.block-text h4 {
+    color: rgb(0, 126, 158);
+}
+
+.block-text h3 {
+    padding-bottom: 1rem;
+}
+
+.block-text h4 {
+    padding-bottom: .3rem;
+}
+
+.block-text p span {
+    color: #BB0045;
+}
+
+.button a,
+.btn {
+    background-color: rgb(0, 126, 158);
+    border: rgb(0, 126, 158) 1px solid;
+    font-weight: 900;
+    font-family: '微軟正黑體';
+}
+
+.button a:hover,
+.btn:hover {
+    color: rgb(0, 126, 158);
+    border: rgb(0, 126, 158) 1px solid;
+    background: transparent;
+}
+
+.half-side .ul-center {
+    width: 70%;
+    margin: 0 auto;
+    color: rgb(0, 126, 158);
+}
+
+.half-side .reason {
+    padding: 0 0 0 1.5rem;
+    font-family: '微軟正黑體';
+}
+
+.half-side .reason li {
+    padding-bottom: 0.5rem;
+    padding-left: .5rem;
+    line-height: 1.5;
+    font-weight: 400;
+    list-style: decimal;
+}
+
+.half-side ul li {
+    list-style: square;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.half-side .want {
+    color: #BA0045;
+    text-align: center;
+    border-top: 1px solid #BA0045;
+    border-bottom: 1px solid #BA0045;
+    padding: .5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: .5rem 0;
+}
+
+.block-text h3 {
+    font-size: 1.6rem;
+    padding-bottom: .5rem;
+    line-height: 1.5;
+}
+
+.half-side-right h5 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(0, 110, 138);
+    padding: .5rem;
+}
+
+.half-side-right h6 {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #BA0045;
+    padding: .5rem 0 .5rem 1rem;
+}
+
+.half-side-right .article {
+    padding-left: 2rem;
+}
+
+
+/* ----------LIST--------- */
+/* 依照法考介紹(intro.html)設定 */
+.list .title-line {
+    margin: 1rem;
+}
+
+.list .list-group-item.active {
+    background-color: rgb(26, 133, 160);
+    border-color: rgb(26, 133, 160);
+    color: #ffffff;
+}
+
+.list .content {
+    background-color: rgba(185, 53, 102, 0.07);
+}
+
+.list .no-bg-color {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.list h3 {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #BB0045;
+    padding-left: 5rem;
+}
+
+.list .qualification ul li {
+    padding-top: .5rem;
+    margin-left: 3rem;
+}
+
+.list .qualification ul p {
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
+
+
+.list .content table .thead {
+    background-color: #ffffff80;
+    color: rgb(0, 126, 158);
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.list .content table .title {
+    background-color: rgb(0, 126, 158);
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.list .content table td {
+    border-top: 1px solid #D9B94D;
+    border-bottom: 1px solid #D9B94D;
+    border-left: 1px dashed #D9B94D;
+    border-right: 1px dashed #D9B94D;
+}
+
+.list .test ul li,
+.list .different ul li {
+    list-style: none;
+    padding-top: 0;
+}
+
+.list .test table {
+    margin-left: 1.5rem;
+    width: 100%;
+}
+
+.list .test table span {
+    color: #BB0045;
+    font-weight: 900;
+}
+
+.list .test ol {
+    margin-left: 2.5rem;
+}
+
+.list .test .roll {
+    width: 60%;
+    background-color: rgba(185, 53, 102, 0.07);
+    padding: 1rem;
+    margin: 1rem 0 0 0;
+}
+
+.list .test .roll h4 {
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 900;
+    font-size: 1.3rem;
+    padding-bottom: .5rem;
+}
+
+.list .test .roll table {
+    margin: 0;
+    width: 90%;
+}
+
+.list .test .roll table td {
+    border: 0px;
+    padding: .5rem;
+}
+
+.list .date {
+    display: flex;
+    align-items: center;
+}
+
+.list .date img {
+    width: 100%;
+}
+
+.list .date ul {
+    padding-right: 3rem;
+}
+
+.list .date ul li {
+    list-style: none;
+}
+
+.list .date ul li h4 {
+    background-color: rgb(0, 126, 158);
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 900;
+    padding: .3rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 22px;
+    border: 0;
+}
+
+.list .date ul>li span,
+.list .date ul>li ol li,
+.list .date ul>li p {
+    padding-left: .5rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.list .date ul>li ol li {
+    margin-left: 3rem;
+}
+
+.list .date ul>li p {
+    margin-left: 1.5rem;
+    padding-top: .5rem;
+}
+
+.list .date-ps {
+    font-family: '微軟正黑體';
+    font-weight: 600;
+    text-align: center;
+    border-top: 1px solid #BA0045;
+    border-bottom: 1px solid #BA0045;
+    color: #BA0045;
+    padding: .5rem 0;
+    width: 90%;
+    margin: 1.5rem auto 0 auto;
+}
+
+.list .different table div {
+    padding: 1rem;
+    margin-top: .5rem;
+    background-color: rgba(185, 53, 102, 0.07);
+}
+
+.list table {
+    width: 100%;
+}
+
+.list .different table td {
+    width: 50%;
+    vertical-align: top;
+}
+
+.list .different table h4,
+.list .different table h5,
+.list .different table p span {
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 900;
+}
+
+.list .different table h4 {
+    font-size: 1.4rem;
+    color: #BA0045;
+}
+
+.list .different table h5 {
+    font-size: 1.1rem;
+    color: rgb(0, 163, 204);
+    padding-top: .5rem;
+}
+
+.list .different table ol {
+    margin-left: 1rem;
+}
+
+.list .different table p span {
+    font-size: 1.1rem;
+    display: inline-block;
+    padding-bottom: .5rem;
+}
+
+.list .different .roll td {
+    border: 1px solid transparent;
+    padding: .3rem 0 .3rem 0;
+}
+
+.list .different .roll {
+    margin: 0;
+}
+
+.list .cicca p {
+    line-height: 2;
+}
+
+.list .teacher .teacher-block {
+    padding: 0 2rem;
+}
+
+.list .teacher .teacher-block-img {
+    position: relative;
+    padding: 1rem 1rem .2rem 1rem;
+}
+
+.list .teacher .teacher-block h5 {
+    position: absolute;
+    background-color: #BB0045;
+    color: white;
+    font-weight: 900;
+    font-size: 1.3rem;
+    font-family: 'Noto Serif TC', serif;
+    padding: 0.4rem 2rem;
+    bottom: 10%;
+    left: -2%;
+}
+
+.list .teacher .teacher-block p {
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 600;
+    padding-bottom: .5rem;
+}
+
+.list .teacher .teacher-block .font-small {
+    font-size: .95rem;
+}
+
+.list .book table {
+    width: 85%;
+    margin: 1rem auto 0 auto;
+
+}
+
+.list .book table ol li {
+    margin-left: 3rem;
+}
+
+.list .app h4 {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #BB0045;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+
+.list .app .row {
+    margin: 3rem 2rem 1rem 2rem;
+}
+
+.list .app h5 {
+    font-family: 'Noto Serif TC', serif;
+    color: #BB0045;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-top: 2rem;
+}
+
+.list .app p {
+    padding-top: .5rem;
+    line-height: 2;
+}
+
+.list .app .col-border-right {
+    border-right: 1px dashed #BB0045;
+}
+
+.list .score table {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.list .score table .b-col {
+    width: 65%;
+}
+
+.list .score table .s-col {
+    width: 15%;
+}
+
+.list .score table tr td {
+    border-left: none;
+    border-right: none;
+}
+
+.list .score table .no-border-top td {
+    border-top: none;
+}
+
+.list .score table .no-border-bottom td {
+    border-bottom: none;
+}
+
+.list .test-content h3,
+.list .position h3,
+.list .sign h3 {
+    padding: 0;
+}
+
+.list .course .first img {
+    width: 85%;
+    padding-bottom: 2rem;
+}
+
+.list .course .first .content {
+    padding: 0 2rem;
+}
+
+.list .course .first h4 {
+    color: rgb(12, 53, 80);
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.list .course .first h5 {
+    font-size: 1.5rem;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 600;
+}
+
+.list .course .first h5 span {
+    color: #BA0045;
+    font-weight: 900;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.list .course .first .second-title .title-line,
+.list .course .first .second-title h2 {
+    float: left;
+}
+
+.list .course .first .second-title .title-line {
+    background-color: rgb(12, 53, 80);
+}
+
+.list .course .first .second-title h2 {
+    padding-top: .5rem;
+    font-family: 'Noto Serif TC', serif;
+    margin-bottom: 1rem;
+    color: rgb(0, 126, 158);
+}
+
+.list .course .first .second-title .title-line {
+    width: 30%;
+}
+
+.list .course .first p {
+    font-weight: 600;
+}
+
+.list .course .first .modal-content h5 {
+    font-weight: 900;
+}
+
+.list .course .first .modal-content p {
+    text-align: left;
+    font-family: '微軟正黑體';
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.list .course .three-years img {
+    width: 70%;
+}
+
+.list .course .second h5 {
+    background-color: #BA0045;
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: .3rem 1rem;
+    margin: 2rem 0 0 2rem;
+}
+
+.list .course .second table h2 .number h2 {
+    font-size: 1.8rem;
+    color: #BA0045;
+}
+
+.list .course .second table h2 p {
+    font-size: 1.5rem;
+}
+
+.list .course .second table .number h2,
+.list .course .second table .number .title-line {
+    float: left;
+}
+
+.list .course .second table .number .title-line {
+    width: 8%;
+}
+
+.list .course .second table .b-col {
+    width: 40%;
+}
+
+.list .course .second table .m-col {
+    width: 35%;
+}
+
+.list .test-content ul {
+    margin-left: 2rem;
+}
+
+.list .test-content ul li {
+    padding-top: .5rem;
+}
+
+.list .test-content p {
+    padding: .5rem 0 0 .5rem;
+    font-weight: 600;
+    color: #BA0045;
+}
+
+.list .position p {
+    padding-top: 1rem;
+}
+
+/* ---------CONTACT---------- */
+.contact .shop .list-group a {
+    background-color: rgb(0, 163, 204);
+    color: #ffffff;
+}
+
+.contact .shop .list-group a:hover,
+.contact .shop .list-group .active {
+    background-color: rgb(0, 110, 138);
+}
+
+.contact .tab-content table .thead {
+    color: #BA0045;
+    border-bottom: 1px solid #D9B94D;
+    background-color: transparent;
+    font-family: '微軟正黑體';
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.contact table {
+    width: 80%;
+    margin: 1rem auto 0 auto;
+}
+
+.contact .easywin ol {
+    display: flex;
+}
+
+.contact .easywin ol li {
+    padding: 0 .5rem;
+}
+
+/* ----------FOOTER---------- */
+footer {
+    background-color: rgb(12, 53, 80);
+}
+
+footer .fb {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: block;
+    padding-top: 1rem;
+    transform: scale(1);
+}
+
+footer .fb:hover {
+    filter: opacity(.9);
+    transform: scale(1.05);
+    transition: all .3s ease-out;
+}
+
+@media screen and (max-width: 1025px) and (min-width: 561px) {
+    .half-side .ul-center {
+        width: 80%;
+        line-height: 1.5;
+    }
+
+    .half-side ul li {
+        list-style: square;
+        padding-bottom: .5rem;
+    }
+
+    .block-text .half-side .btn {
+        padding: .2rem .5rem;
+    }
+
+    .half-side-right ul li i {
+        padding: 0.2rem;
+    }
+
+    .new-infor h3 {
+        font-size: 1.2rem;
+    }
+
+    .list .scroll-table {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .list .scroll-ps {
+        font-weight: 900;
+    }
+
+    .list .scroll-table>table {
+        margin-left: 0;
+        margin-top: 0;
+        width: 800px;
+    }
+
+    .list .scroll-table>.small-table {
+        width: 600px;
+    }
+
+    .col-sm-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .list .title-line {
+        margin: .5rem 0 1rem 0;
+    }
+
+    .list .test .roll {
+        width: 100%;
+    }
+
+    .list .test .roll table td {
+        padding: .2rem;
+    }
+
+    .list .test .roll table {
+        width: 100%;
+    }
+
+    .list .date {
+        flex-direction: column;
+    }
+
+    .list .date ul>li {
+        margin: 0;
+        margin-left: 0;
+    }
+
+    .list .date img {
+        padding: 0.5rem;
+    }
+
+    .list h3 {
+        font-size: 1.3rem;
+        padding-left: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    .list .app h4 {
+        font-size: 1.5rem;
+        padding-left: 3rem;
+        padding-top: 0;
+        line-height: 1.5;
+    }
+
+    .list .app h5 {
+        padding-top: 0;
+    }
+
+
+    .list .app .col-sm-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0.5rem;
+    }
+
+    .list .app .col-sm-9 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0.2rem;
+    }
+
+    .list .app .col-border-none {
+        border-right: 1px solid transparent;
+    }
+
+    .list .course h3 {
+        line-height: 1.5;
+    }
+
+
+    .list .course .first img {
+        width: 100%;
+        padding-bottom: 0.5rem;
+    }
+
+    .list .course .first .content {
+        padding: 0 .5rem;
+    }
+
+    .list .course .first .second-title .title-line {
+        width: 18%;
+    }
+
+    .list .course .first .second-title h2 {
+        padding: 0 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .list .course .first h5 {
+        font-size: 1.2rem;
+    }
+
+    .list .course .second table .b-col {
+        width: 35%;
+    }
+
+    .list .course .second table .number .title-line {
+        width: 10%;
+        margin: 1rem;
+    }
+
+    .list .course .second h5 {
+        margin: .5rem 0 .5rem 0;
+    }
+
+    .contact .title img {
+        width: 40%;
+    }
+
+    .contact .shop .list-group a {
+        width: 23.5%;
+        padding: .3rem 0;
+        margin: .5rem .2rem;
+    }
+}
+
+@media (max-width:560px) {
+
+    /* ----------nav---------- */
+    nav {
+        background-color: #BA0045;
+    }
+
+    nav .menu div>li>a,
+    nav .menu li p {
+        color: #BA0045;
+    }
+
+    .half-side .ul-center {
+        width: 95%;
+        line-height: 1.5;
+        padding-left: 1rem;
+    }
+
+    .half-side ul li {
+        padding-bottom: .5rem;
+    }
+
+    .half-side-right h6 {
+        padding: .5rem 0;
+    }
+
+    .half-side-right .article {
+        padding-left: 0;
+    }
+
+    .list .title-line {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .list .qualification ul li {
+        margin-left: 2rem;
+    }
+
+    .list .test ul>li,
+    .list .different ul>li {
+        margin: 0;
+        padding-left: .5rem;
+        padding-top: 1rem;
+    }
+
+    .list .different ul>li {
+        padding-top: 0;
+    }
+
+    .list .test h3 {
+        padding-top: 0;
+    }
+
+    .list .scroll-table {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .list .scroll-ps {
+        font-weight: 900;
+    }
+
+    .list .scroll-table>table {
+        margin-left: 0;
+        margin-top: 0;
+        width: 600px;
+    }
+
+    .list .scroll-table>.small-table {
+        width: 400px;
+    }
+
+    .list .scroll-table>.big-table {
+        width: 650px;
+    }
+
+    .list .test .roll,
+    .list .test .roll table {
+        width: 100%;
+    }
+
+    .list .test .roll table td {
+        padding: .3rem 0;
+    }
+
+    .list .date {
+        flex-direction: column;
+    }
+
+    .list .date ul {
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+
+    .list .date ul>li ol li {
+        margin-left: 2rem;
+    }
+
+    .list .date ul>li {
+        padding-left: 0.5rem;
+        padding-top: 1rem;
+        margin: 0;
+    }
+
+    .list .date ul>li ol li,
+    .list .date ul>li p {
+        font-size: 1rem;
+    }
+
+    .list .different table div {
+        padding: 0.5rem;
+    }
+
+    .list h3 {
+        padding-left: 0;
+    }
+
+    .list .book table ol li {
+        margin-left: 1rem;
+    }
+
+    .list .app .row {
+        margin: 1rem 0;
+    }
+
+    .list .app h4 {
+        font-size: 1.3rem;
+        line-height: 1.5;
+        padding-left: 0;
+    }
+
+    .list .app .col-border-right {
+        border: none;
+    }
+
+    .list .app h5 {
+        font-size: 1.3rem;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+    .list .score table .b-col {
+        width: 55%;
+    }
+
+    .list .score table .s-col {
+        width: 17%;
+        padding: 0;
+    }
+
+    .list .test-content ul {
+        margin-left: 1rem;
+    }
+
+    .list .course .first .content,
+    .list .course .first img {
+        padding: 0;
+    }
+
+    .list .course .first img {
+        width: 100%;
+    }
+
+    .list .course .first h4 {
+        font-size: .9rem;
+        padding-top: 1rem;
+    }
+
+    .list .course .first .second-title h2 {
+        font-size: 1.5em;
+        margin: 0 .5rem;
+    }
+
+    .list .course .first .second-title .title-line {
+        width: 15%;
+    }
+
+    .list .course .first h5 {
+        font-size: 1.2rem;
+    }
+
+    .list .course .first .modal-content p {
+        font-size: 1rem;
+    }
+
+    .list .course .second table .number .title-line {
+        width: 15%;
+    }
+
+    .list .course .second table h2 {
+        padding: 0 .5rem;
+    }
+
+    .list .course .second h5 {
+        margin: .5rem 0 1rem 0;
+    }
+
+    .list .course .first h3,
+    .list .course .second h3 {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        padding-left: 0.5rem;
+    }
+
+    .contact table {
+        width: 100%;
+    }
+
+    /* --------footer-------- */
+    footer .fb {
+        padding-top: 0.5rem;
+    }
+
+}

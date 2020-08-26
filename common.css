@@ -1,0 +1,911 @@
+/* 這邊包含表頭表尾共通的CSS設定 */
+
+/* ----------HEADER---------- */
+
+/* ---NAV--- */
+header {
+    position: relative;
+}
+
+.wrap {
+    padding: 2.5rem 0;
+}
+
+nav {
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 3rem;
+}
+
+.sticky-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.sticky-menu li {
+    transform: translateX(0px);
+    transition: all ease 1s;
+}
+
+nav h1,
+nav>.menu>div>li {
+    float: left;
+}
+
+nav>ul {
+    float: right;
+}
+
+nav h1 a {
+    font-weight: 900;
+    font-size: 1.5rem;
+    display: block;
+    transform: scale(1, 1);
+}
+
+nav h1 a:hover {
+    transition: all .3s ease-out;
+    transform: scale(1.02, 1.02);
+}
+
+nav>.menu>div>li>a {
+    padding: .5rem 1rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+nav>.menu>div>li>a:hover {
+    transition: all .5s ease-out;
+}
+
+nav .active {
+    border-bottom: 2px solid #ffffff;
+}
+
+nav>.menu>div>li {
+    position: relative;
+}
+
+nav ul li .drop-down-menu {
+    background-color: #ffffff;
+    margin: 0;
+    position: absolute;
+    z-index: 99;
+    left: -8px;
+    min-width: 180px;
+}
+
+nav ul li .drop-down-menu li a {
+    display: block;
+    padding: .8rem;
+    font-weight: 600;
+    position: relative;
+}
+
+nav ul li .drop-down-menu li:hover {
+    transition: all .3s ease-out;
+}
+
+nav ul li .drop-down-menu li a:hover {
+    left: 5px;
+    transition: all .2s ease-out;
+}
+
+nav ul li .drop-down-menu {
+    /*隱藏次選單*/
+    display: none;
+}
+
+nav ul li:hover>.drop-down-menu {
+    /* 滑鼠滑入展開次選單*/
+    display: block;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 8%;
+}
+
+.carousel-indicators {
+    bottom: .5rem;
+}
+
+/* ---menu--- */
+menu {
+    background-color: #3A73A8;
+    box-shadow: 0px 3px 5px #00000030, 0px 1px 3px #00000030;
+}
+
+menu ul {
+    max-width: 1700px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+menu .logo {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 0.8rem 2rem;
+}
+
+menu ul li {
+    float: left;
+    transform: translateX(-130px);
+    transition: all ease .5s;
+}
+
+menu ul li a {
+    color: #ffffff;
+    display: block;
+    padding: 1rem 2rem;
+    border-bottom: 4px solid transparent;
+    font-weight: 600;
+}
+
+menu ul li a:hover,
+menu ul li .active {
+    color: rgb(255, 220, 107);
+    border-bottom: 4px solid rgb(255, 220, 107);
+    transition: all .2s ease-out;
+}
+
+/* --------top--------- */
+.container-fluid{
+    position: relative;
+}
+
+.top{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    
+}
+
+.top i{
+    font-size: 3rem;
+    opacity: .4;
+}
+
+/* ---------SECTION---------- */
+/* ---title--- */
+h2 {
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+h2 i {
+    font-size: 1.2rem;
+    padding: 0 1.8rem;
+}
+
+.title-line {
+    margin: 1.5rem auto;
+    width: 90%;
+    height: 1px;
+}
+
+/* ---------FOOTER---------- */
+footer .content {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+footer .footer-block {
+    display: flex;
+    width: 30%;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .large-side {
+    width: 40%;
+}
+
+footer .footer-block .logo {
+    width: 80%;
+    transform: scale(1, 1);
+}
+
+footer .footer-block .logo:hover {
+    filter: opacity(.9);
+    transform: scale(1.01, 1.01);
+    transition: all .2s ease-out;
+}
+
+footer .footer-block .qr-code {
+    max-width: 120px;
+}
+
+footer .footer-block>div {
+    width: 80%;
+}
+
+footer .footer-block h2 {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+footer .footer-block p {
+    color: #ffffff;
+    font-family: '微軟正黑體';
+    line-height: 1.5;
+    padding-top: .5rem;
+    padding-right: .5rem;
+}
+
+footer .footer-block ul li {
+    color: #ffffff;
+    font-family: '微軟正黑體';
+    padding: .5rem 0;
+}
+
+footer .footer-block ul li i {
+    padding-right: 1rem;
+}
+
+footer .footer-block a {
+    color: #ffffff;
+}
+
+
+/* ----------BLOCK-TEXT---------- */
+/* 最新消息的標題與區塊文章 */
+section .title {
+    padding-top: 2rem;
+}
+
+.block-text {
+    display: flex;
+    justify-content: center;
+}
+
+.block-text .half-side {
+    width: 50%;
+}
+
+.block-text .one-third-side {
+    width: 33%;
+}
+
+.block-text .whole-size p {
+    line-height: 2;
+}
+
+.block-text .half-side,
+.block-text .whole-size,
+.block-text .one-third-side {
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.block-text h3,
+.block-text h4 {
+    text-align: center;
+    font-weight: 900;
+    line-height: 1.4;
+}
+
+.block-text h3 {
+    font-size: 1.8rem;
+    padding-bottom: .5rem;
+}
+
+.block-text h4 {
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.block-text p {
+    line-height: 1.5;
+    font-family: '微軟正黑體';
+    padding-bottom: .5rem;
+}
+
+.block-text p span {
+    font-weight: 900;
+}
+
+.button a {
+    font-family: '微軟正黑體';
+    font-weight: 900;
+    margin-top: .5rem;
+    transform: translateY(0);
+}
+
+.button a:hover {
+    background-color: transparent;
+    transform: translateY(3px);
+    transition: all ease .2s;
+}
+
+.block-text .half-side ol li {
+    list-style: square;
+    margin-left: 1rem;
+}
+
+.block-text ol li h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1rem 0 .5rem 0;
+}
+
+/* ----------LIST--------- */
+/* 依照法考介紹(intro.html)設定 */
+.list .list-group-item {
+    font-family: '微軟正黑體';
+    font-weight: 600;
+    font-size: 1.08rem;
+}
+
+.list .list-group-item.active {
+    padding-left: 2rem;
+}
+
+.list .list-group-item.active a,
+.list .list-group-item:hover {
+    padding-left: 2rem;
+    transition: all ease .5rem;
+}
+
+.list h2 {
+    font-size: 2.2rem;
+}
+
+.list .title-line {
+    width: 100%;
+}
+
+.list .content {
+    padding: 1.5rem;
+    margin: 1.5rem;
+    line-height: 1.5;
+    font-family: '微軟正黑體';
+}
+
+.list .video-size {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.list .have-video p {
+    padding-bottom: 1rem;
+}
+
+.list .content h3 {
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0 .5rem 0;
+}
+
+.list .content h3 i {
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+
+.list .content ul>li {
+    list-style: decimal;
+    margin: 0 0 0 1.5rem;
+    padding-left: .5rem;
+    padding-top: 1rem;
+}
+
+.list .content .retraction {
+    margin-left: 2rem;
+}
+
+.list .content ul>li>ol>li {
+    list-style: square;
+    margin: .5rem 0 0 1rem;
+}
+
+.list .content table {
+    margin-top: 1rem;
+}
+
+.list .content table .thead {
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.list .content table .title {
+    font-weight: 900;
+}
+
+.list .content table td {
+    padding: .8rem;
+    vertical-align: middle;
+}
+
+.list .content table .b-col {
+    width: 50%;
+}
+
+.list .content table .m-col {
+    width: 15%;
+}
+
+.list .content table .s-col {
+    width: 8%;
+}
+
+.list .content table ol li {
+    list-style: square;
+    margin-left: 1.5rem;
+    padding-top: .5rem;
+    font-weight: 600;
+}
+
+/* ----------QA---------- */
+.qa .content ul>li {
+    list-style: square;
+}
+
+.qa .content ul>li>ol>li,
+.qa .content ol>li {
+    list-style: decimal;
+    padding-left: .5rem;
+}
+
+.qa .content ul li span {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.qa .content .ps {
+    font-family: '微軟正黑體';
+    font-size: 1.1rem;
+    display: block;
+    padding-top: .5rem;
+}
+
+.qa .content .ps i {
+    padding: .5rem;
+}
+
+.qa .content>span {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.qa .content ul li a {
+    display: block;
+    padding-top: .5rem;
+}
+
+.qa .content ul li a:hover {
+    text-decoration: underline;
+}
+
+.qa .content table .b-col {
+    width: 70%;
+}
+
+/* ---------CONTACT---------- */
+.contact .title img {
+    width: 30%;
+    padding-left: 1.5rem;
+}
+
+.contact .shop .list-group {
+    display: block;
+}
+
+.contact .shop .list-group a {
+    float: left;
+    width: 21%;
+    text-align: center;
+    font-weight: 900;
+    padding: .5rem 0;
+    margin: .5rem 1rem;
+    border-radius: 20px;
+    transform: translateY(0);
+}
+
+.contact .shop .list-group a:hover,
+.contact .shop .list-group .active {
+    transform: translateY(3px);
+    transition: all ease .5s;
+}
+
+.contact table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact table {
+    background-color: #ffffff90;
+}
+
+.contact .tab-content table .thead {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+@media (min-width:1026px) {
+
+    .pc-none,
+    .in-pad {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1025px) and (min-width: 561px) {
+    .pc-none,
+    .rwd-none,
+    .pad-none {
+        display: none;
+    }
+
+    .in-pc-pad{
+        display: inline-block;
+    }
+
+    .wrap {
+        padding: 0 0 1rem 0;
+    }
+
+    .wrap .row{
+        margin-top: 2rem;
+    }
+
+    .col-sm-12{
+        padding: .5rem;
+    }
+
+    nav {
+        width: 95%;
+        top: 1.5rem;
+    }
+
+    nav h1 a {
+        font-size: 1.1rem;
+        padding-top: 0.5rem;
+    } 
+    
+    nav>.menu>div>li>a {
+        padding: .5rem .5rem;
+        font-size: .8rem;
+    }
+
+    menu ul li a{
+        padding: .8rem .5rem;
+    }
+
+    menu .logo {
+        font-size: 1.2rem;
+        font-weight: 900;
+        padding: 0.8rem 1.4em;
+    }
+
+    h2 i {
+        font-size: 1.2rem;
+        padding: 0 1rem;
+    }
+
+    /* ---------block-text-------- */
+    .block-text .half-side,
+    .block-text .one-third-side,
+    .block-text .whole-size {
+        padding: 1rem;
+        margin: .5rem;
+    }
+
+    .title-line {
+        margin: 1rem auto .5rem auto;
+        width: 95%;
+    }
+
+    /* ---------activity--------- */
+    .activity-wrap h2{
+        font-size: 2.2rem;
+    }
+
+    /* ---------list--------- */
+    .list{
+        margin-top: 1rem;
+    }
+
+    .list .content {
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .list .list-group-item{
+        line-height: 1.5;
+    }
+
+    .list h2 {
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+
+
+    /* ----------footer--------- */
+    footer .footer-block {
+        padding: 1.5rem .5rem;
+        width: 32%;
+    }
+
+    footer .footer-block h2 {
+        font-size: 1.4rem;
+    }
+
+    footer .footer-block .logo {
+        width: 95%;
+    }
+
+    footer .large-side {
+        width: 38%;
+    }
+
+    footer .small-side {
+        width: 28%;
+    }
+
+    footer .footer-block ul li i {
+        padding-right: 0;
+    }
+
+    footer .footer-block p,
+    footer .footer-block li {
+        padding-right: 0;
+        font-size: .9rem;
+    }
+}
+
+@media (max-width:560px) {
+
+    menu,
+    .rwd-none,
+    .in-pad,
+    nav>.menu>div>li>a {
+        display: none;
+    }
+
+    .pc-none {
+        display: inline-block;
+    }
+
+    .pc-none img {
+        padding-top: 65px;
+    }
+
+    .wrap {
+        padding: 0 0 1rem 0;
+    }
+
+    .sticky-wrap {
+        margin-top: 0;
+    }
+
+    /* ----------nav---------- */
+    header img{
+        box-shadow: 0px 3px 5px #00000030, 0px 1px 3px #00000030;
+    }
+
+    nav {
+        width: 100%;
+        top: 0;
+        padding: 1rem;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    nav h1 a {
+        padding: .3rem 0;
+    }
+
+    nav .menu {
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        max-height: 0;
+        overflow: hidden;
+        box-shadow: 0 3px 5px #00000020;
+        transition: max-height 1.5s;
+    }
+
+    nav .menu div {
+        padding: 0.5rem 0;
+    }
+
+    nav .menu div>li {
+        float: none;
+        padding: .3rem 0 .3rem .5rem;
+    }
+
+    nav .menu div>li i {
+        font-size: .8rem;
+        padding-right: 0.5rem;
+    }
+
+    nav .menu li p,
+    nav .menu div>li>a {
+        font-weight: 600;
+        padding: .5rem 1rem;
+    }
+
+    nav .menu .active,
+    nav .menu .active-item {
+        color: rgb(248, 199, 36);
+    }
+
+    .showmenu {
+        float: right;
+        color: #ffffff;
+        border: 1px solid #ffffff90;
+        padding: .5rem .6rem;
+        border-radius: 5px;
+    }
+
+    .showmenu:hover {
+        color: #ffffff;
+    }
+
+    nav .menu li .drop-down-menu {
+        /*隱藏次選單*/
+        display: block;
+        position: unset;
+        max-height: 0;
+        overflow: hidden;
+        z-index: 1000;
+        margin: 0;
+        padding-left: 1.5rem;
+    }
+
+
+    /* ---JS觸發--- */
+    .open-menu nav .menu {
+        max-height: 677px;
+    }
+
+    nav #navLi .open-li {
+        max-height: 300px;
+    }
+
+    .open-menu .midle-black {
+        background-color: #000000;
+        filter: opacity(.3);
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 500;
+        transition: 1.5s;
+    }
+
+    /* ----------content---------- */
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    h2 p{
+        padding: 1rem;
+    }
+
+    h2 i {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .title-line {
+        margin: 0 auto .5rem auto;
+    }
+
+    section .title {
+        padding-top: 1.2rem;
+    }
+
+    .block-text {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .block-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .block-text h4 {
+        font-size: 1rem;
+    }
+
+    .block-text .half-side,
+    .block-text .one-third-side,
+    .block-text .whole-size {
+        width: 100%;
+        padding: 1rem;
+        margin: .5rem 0;
+    }
+
+    .block-text .title-line {
+        margin: .5rem auto 1rem auto;
+    }
+
+    /* ---------list--------- */
+    .list{
+        margin-top: 1rem;
+    }
+
+    .list h2{
+        font-size: 1.3rem;
+        padding-top: 1.5rem;
+        line-height: 1.5;
+    }
+
+    .list h2 i{
+        padding-right: 0.5rem;
+    }
+
+    .list .content {
+        padding: .5rem;
+        margin: 0;
+    }
+
+    .list .content h3 {
+        font-size: 1.3rem;
+        margin-left: 0.5rem;
+    }
+
+    .contact .title img{
+        width: 60%;
+        padding-left: 0;
+    }
+
+    .contact .shop .list-group a {
+        width: 44%;
+        padding: .5rem 0;
+        margin: .5rem;
+    }
+
+
+    /* --------footer--------- */
+    footer .content,
+    footer .footer-block {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer .content {
+        padding: .5rem 0;
+    }
+
+    footer .footer-block {
+        padding: .8rem .5rem;
+    }
+
+    footer .footer-dash-border{
+        border-bottom: 1px dashed #ffffff60;
+    }
+
+    footer .footer-block p{
+        padding-right: 0;
+        font-size: .9rem;
+    }
+
+    footer .footer-block .logo {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    footer .footer-block ul li{
+        padding: .2rem;
+    }
+
+    footer .footer-block h2{
+        font-size: 1.5rem;
+    }
+
+}
